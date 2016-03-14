@@ -19,9 +19,9 @@ end
 
 def verify_answer
 	if (num1+num2) != answer
-	 puts "you earned a point"
-	else
 	 puts "you lost one life"
+	else
+	 puts "you earned a point"
 	end
 end
 
